@@ -1568,7 +1568,7 @@
 	}
 
 	body {
-		background: #08172b;
+		background: #353538;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -1655,7 +1655,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #5385c1;
+		color: #ffffff;
 		font-weight: 300;
 		line-height: 1.5;
 		margin: 0 0 1em 0;
@@ -1805,7 +1805,7 @@
 		}
 
 		section.wrapper.style1, article.wrapper.style1 {
-			background: #050f1b;
+			background: #7d7e8a;
 			color: #bacee6;
 		}
 
@@ -2660,7 +2660,7 @@
 		input[type="button"].special,
 		button.special,
 		.button.special {
-			background-color: #050f1b;
+			background-color: #202935;
 			color: #ffffff !important;
 		}
 
@@ -2855,7 +2855,7 @@
 		position: fixed;
 		right: 0;
 		top: 0;
-		background: #050f1b;
+		background: #202935;
 		color: #d4e0ef;
 		height: 100%;
 		max-width: 80%;
@@ -2940,7 +2940,7 @@
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		text-align: center;
-		border-top: 0.5em solid #050f1b;
+		border-top: 0.5em solid #202935;
 	}
 
 		#banner h1 {

@@ -1,19 +1,32 @@
 
 import React from 'react';
-import Home from './pages/Home';
+import Menu from './pages/Menu';
 import Login from './pages/Login';
 import Register from './pages/Register';
-import {HashRouter, Switch, Route} from 'react-router-dom';
+import {HashRouter, Switch, Route, Redirect} from 'react-router-dom';
 
 function App() {
+
+	const PrivateRoute = ({component: Component, ...rest}) => {
+		return <Route
+			render={(props => {
+				let isAthenticated = sessionStorage.getItem("uuid")
+				if (isAthenticated){
+					return <Component {...props}/>
+				}else{
+					return <Redirect to={{pathname: "/"}} />
+				}
+			})}
+		/>
+	}
 
 	return(
 		<>
 		<HashRouter>
-      <Switch>
-      	<Route path="/" exact={true} component={Home} />
-        <Route path="/login" exact={true} component={Login} />
-        <Route path="/register" exact={true} component={Register} />
+      		<Switch>
+			  	<Route path="/" exact={true} component={Login} />
+			  	<PrivateRoute path="/menu" exact={true} component={Menu} />
+        		<Route path="/register" exact={true} component={Register} />
 			</Switch>
 		</HashRouter>	
 		</>
