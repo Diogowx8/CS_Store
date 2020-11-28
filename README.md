@@ -11,3 +11,5 @@ Neste projeto foi utilizado varias ferramentas, como por exemplo:
 Acesso público
 Login: public.test@gmail.com
 Senha: publictest
+
+Site CS Store: csstore.rf.gd 
