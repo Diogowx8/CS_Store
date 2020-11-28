@@ -13,3 +13,5 @@ Login: public.test@gmail.com
 Senha: publictest
 
 Site CS Store: csstore.rf.gd 
+
+O projeto não está 100% funcional ainda, mas creio que futuramente deixarei ele totalmente funcional e com uma interface melhorada!
