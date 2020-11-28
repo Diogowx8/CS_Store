@@ -45,7 +45,7 @@ export default function Menu() {
 						color="primary"
 						startIcon={<ExitToAppIcon />}>
 						Sair
-				</Button>
+					</Button>
 					<a href="#navPanel" className="navPanelToggle"><span className="fa fa-bars"></span></a>
 				</div>
 			</header>
@@ -86,12 +86,12 @@ export default function Menu() {
 						<Grid item sm={12} xs={12}>
 							<Paper>
 								{screen === 1 &&
-									<SkinLista/> 
+									<SkinLista setScreen={setScreen}/> 
 								}
 							</Paper>
 							<Paper>
 								{screen === 2 &&
-									 <Vender/>
+									 <Vender setScreen={setScreen}/>
 								}
 							</Paper>
 						</Grid>

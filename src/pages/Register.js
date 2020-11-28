@@ -28,10 +28,10 @@ export default function Register() {
 						<h2>Register</h2>
 					</header>
 					<h3>
-                        <TextField label="E-mail" variant="outlined" type="email" style={{width:"50%"}} />
+                        <TextField label="E-mail" variant="outlined" type="email" style={{width:"100%"}} />
 					</h3>
 					<h3>
-                        <TextField label="Senha" variant="outlined" type="password" style={{width:"50%"}} />
+                        <TextField label="Senha" variant="outlined" type="password" style={{width:"100%"}} />
 					</h3>
 					<h3>
                         <Button variant="contained" color="primary" >
